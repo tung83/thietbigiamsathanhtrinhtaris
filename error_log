@@ -1,0 +1,106 @@
+[22-Aug-2016 21:24:42 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (SELECT  id,price,price_reduce,title,content,pId,feature,manual,promotion,video FROM product WHERE  id = ?  LIMIT 1) Unknown column 'price' in 'field list'' in /home/psmedia/public_html/ototuan/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/psmedia/public_html/ototuan/object/MysqliDb.php(959): MysqliDb->_prepareQuery()
+#1 /home/psmedia/public_html/ototuan/object/MysqliDb.php(480): MysqliDb->_buildQuery(1)
+#2 /home/psmedia/public_html/ototuan/object/MysqliDb.php(500): MysqliDb->get('product', 1, 'id,price,price_...')
+#3 /home/psmedia/public_html/ototuan/page/product.php(321): MysqliDb->getOne('product', 'id,price,price_...')
+#4 /home/psmedia/public_html/ototuan/function.php(253): product->product_one()
+#5 /home/psmedia/public_html/ototuan/index.php(26): product(Object(MysqliDb), 'san-pham')
+#6 {main}
+  thrown in /home/psmedia/public_html/ototuan/object/MysqliDb.php on line 1300
+[22-Aug-2016 21:26:23 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (SELECT  id,price,price_reduce,title,content,pId,feature,manual,promotion,video FROM product WHERE  id = ?  LIMIT 1) Unknown column 'price' in 'field list'' in /home/psmedia/public_html/ototuan/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/psmedia/public_html/ototuan/object/MysqliDb.php(959): MysqliDb->_prepareQuery()
+#1 /home/psmedia/public_html/ototuan/object/MysqliDb.php(480): MysqliDb->_buildQuery(1)
+#2 /home/psmedia/public_html/ototuan/object/MysqliDb.php(500): MysqliDb->get('product', 1, 'id,price,price_...')
+#3 /home/psmedia/public_html/ototuan/page/product.php(321): MysqliDb->getOne('product', 'id,price,price_...')
+#4 /home/psmedia/public_html/ototuan/function.php(253): product->product_one()
+#5 /home/psmedia/public_html/ototuan/index.php(26): product(Object(MysqliDb), 'san-pham')
+#6 {main}
+  thrown in /home/psmedia/public_html/ototuan/object/MysqliDb.php on line 1300
+[23-Aug-2016 21:26:16 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (SELECT  id,price,price_reduce,title,content,pId,feature,manual,promotion,video FROM product WHERE  id = ?  LIMIT 1) Unknown column 'price' in 'field list'' in /home/psmedia/public_html/ototuan/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/psmedia/public_html/ototuan/object/MysqliDb.php(959): MysqliDb->_prepareQuery()
+#1 /home/psmedia/public_html/ototuan/object/MysqliDb.php(480): MysqliDb->_buildQuery(1)
+#2 /home/psmedia/public_html/ototuan/object/MysqliDb.php(500): MysqliDb->get('product', 1, 'id,price,price_...')
+#3 /home/psmedia/public_html/ototuan/page/product.php(321): MysqliDb->getOne('product', 'id,price,price_...')
+#4 /home/psmedia/public_html/ototuan/function.php(253): product->product_one()
+#5 /home/psmedia/public_html/ototuan/index.php(26): product(Object(MysqliDb), 'san-pham')
+#6 {main}
+  thrown in /home/psmedia/public_html/ototuan/object/MysqliDb.php on line 1300
+[23-Aug-2016 21:28:07 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (SELECT  id,price,price_reduce,title,content,pId,feature,manual,promotion,video FROM product WHERE  id = ?  LIMIT 1) Unknown column 'price' in 'field list'' in /home/psmedia/public_html/ototuan/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/psmedia/public_html/ototuan/object/MysqliDb.php(959): MysqliDb->_prepareQuery()
+#1 /home/psmedia/public_html/ototuan/object/MysqliDb.php(480): MysqliDb->_buildQuery(1)
+#2 /home/psmedia/public_html/ototuan/object/MysqliDb.php(500): MysqliDb->get('product', 1, 'id,price,price_...')
+#3 /home/psmedia/public_html/ototuan/page/product.php(321): MysqliDb->getOne('product', 'id,price,price_...')
+#4 /home/psmedia/public_html/ototuan/function.php(253): product->product_one()
+#5 /home/psmedia/public_html/ototuan/index.php(26): product(Object(MysqliDb), 'san-pham')
+#6 {main}
+  thrown in /home/psmedia/public_html/ototuan/object/MysqliDb.php on line 1300
+[31-Aug-2016 11:44:35 Asia/Saigon] PHP Warning:  include_once(../db_config.php): failed to open stream: No such file or directory in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:44:35 Asia/Saigon] PHP Warning:  include_once(): Failed opening '../db_config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:44:35 Asia/Saigon] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '_hostName' (2) in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 218
+[31-Aug-2016 11:44:35 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect Error 2005: Unknown MySQL server host '_hostName' (2)' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:220
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/config.php(48): MysqliDb->connect()
+#1 /home/psmedia/public_html/otobinhlam/front.php(31): include_once('/home/psmedia/p...')
+#2 /home/psmedia/public_html/otobinhlam/function.php(2): include_once('/home/psmedia/p...')
+#3 /home/psmedia/public_html/otobinhlam/index.php(1): include('/home/psmedia/p...')
+#4 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 220
+[31-Aug-2016 11:44:41 Asia/Saigon] PHP Warning:  include_once(../db_config.php): failed to open stream: No such file or directory in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:44:41 Asia/Saigon] PHP Warning:  include_once(): Failed opening '../db_config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:44:41 Asia/Saigon] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '_hostName' (2) in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 218
+[31-Aug-2016 11:44:41 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect Error 2005: Unknown MySQL server host '_hostName' (2)' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:220
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/config.php(48): MysqliDb->connect()
+#1 /home/psmedia/public_html/otobinhlam/front.php(31): include_once('/home/psmedia/p...')
+#2 /home/psmedia/public_html/otobinhlam/function.php(2): include_once('/home/psmedia/p...')
+#3 /home/psmedia/public_html/otobinhlam/index.php(1): include('/home/psmedia/p...')
+#4 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 220
+[31-Aug-2016 11:44:58 Asia/Saigon] PHP Warning:  include_once(../db_config.php): failed to open stream: No such file or directory in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:44:58 Asia/Saigon] PHP Warning:  include_once(): Failed opening '../db_config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:44:58 Asia/Saigon] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '_hostName' (2) in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 218
+[31-Aug-2016 11:44:58 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect Error 2005: Unknown MySQL server host '_hostName' (2)' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:220
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/config.php(48): MysqliDb->connect()
+#1 /home/psmedia/public_html/otobinhlam/front.php(31): include_once('/home/psmedia/p...')
+#2 /home/psmedia/public_html/otobinhlam/function.php(2): include_once('/home/psmedia/p...')
+#3 /home/psmedia/public_html/otobinhlam/index.php(1): include('/home/psmedia/p...')
+#4 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 220
+[31-Aug-2016 11:44:59 Asia/Saigon] PHP Warning:  include_once(../db_config.php): failed to open stream: No such file or directory in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:44:59 Asia/Saigon] PHP Warning:  include_once(): Failed opening '../db_config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:45:00 Asia/Saigon] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '_hostName' (2) in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 218
+[31-Aug-2016 11:45:00 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect Error 2005: Unknown MySQL server host '_hostName' (2)' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:220
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/config.php(48): MysqliDb->connect()
+#1 /home/psmedia/public_html/otobinhlam/front.php(31): include_once('/home/psmedia/p...')
+#2 /home/psmedia/public_html/otobinhlam/function.php(2): include_once('/home/psmedia/p...')
+#3 /home/psmedia/public_html/otobinhlam/index.php(1): include('/home/psmedia/p...')
+#4 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 220
+[31-Aug-2016 11:47:38 Asia/Saigon] PHP Warning:  include_once(../db_config.php): failed to open stream: No such file or directory in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:47:38 Asia/Saigon] PHP Warning:  include_once(): Failed opening '../db_config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 11:47:38 Asia/Saigon] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '_hostName' (2) in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 218
+[31-Aug-2016 11:47:38 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect Error 2005: Unknown MySQL server host '_hostName' (2)' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:220
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/config.php(48): MysqliDb->connect()
+#1 /home/psmedia/public_html/otobinhlam/front.php(31): include_once('/home/psmedia/p...')
+#2 /home/psmedia/public_html/otobinhlam/function.php(2): include_once('/home/psmedia/p...')
+#3 /home/psmedia/public_html/otobinhlam/index.php(1): include('/home/psmedia/p...')
+#4 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 220
+[31-Aug-2016 12:01:32 Asia/Saigon] PHP Warning:  include_once(../db_config.php): failed to open stream: No such file or directory in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 12:01:32 Asia/Saigon] PHP Warning:  include_once(): Failed opening '../db_config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/psmedia/public_html/otobinhlam/config.php on line 24
+[31-Aug-2016 12:01:32 Asia/Saigon] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host '_hostName' (2) in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 218
+[31-Aug-2016 12:01:32 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect Error 2005: Unknown MySQL server host '_hostName' (2)' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:220
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/config.php(48): MysqliDb->connect()
+#1 /home/psmedia/public_html/otobinhlam/front.php(31): include_once('/home/psmedia/p...')
+#2 /home/psmedia/public_html/otobinhlam/function.php(2): include_once('/home/psmedia/p...')
+#3 /home/psmedia/public_html/otobinhlam/index.php(1): include('/home/psmedia/p...')
+#4 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 220

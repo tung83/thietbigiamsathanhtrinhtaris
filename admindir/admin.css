@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0; padding: 0;
+	font: 10px normal Arial, Helvetica, sans-serif;
+	background: #ddd url(../images/adminMenu/body_b10.gif) repeat-x;
+}
+
+
+ul.topnav {
+	list-style: none;
+	padding: 0 20px;	
+	margin: 0;
+	float: left;
+	width: 920px;
+	background: #222;
+	font-size: 1.2em;
+	background: url(../images/adminMenu/topnav10.gif) repeat-x;
+}
+ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 15px 0 0;
+	position: relative;z-index:500 /*--Declare X and Y axis base--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background: url(../images/adminMenu/topnav11.gif) no-repeat center top;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(../images/adminMenu/subnav10.gif) no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} 
+
+/*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute;
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	-webkit-border-bottom-right-radius: 05px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 05px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 05px;
+	border-bottom-left-radius: 5px;
+	border: 1px solid #111;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; 
+	border-bottom: 1px solid #444; 
+	clear: both;
+	width: 170px;
+	-webkit-border-bottom-right-radius: 05px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 05px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 05px;
+	border-bottom-left-radius: 5px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 url(../images/adminMenu/dropdo10.gif) no-repeat 10px center;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 url(../images/adminMenu/dropdo10.gif) no-repeat 10px center; 
+}
+#header img {
+	margin: 20px 0 10px;
+}
+.txtBox{border-radius:4px;border:1px solid black;width:90%;padding:5px}
+.txtBox:hover{border-color:red}
+.headTitle{padding:5px;background:black;color:white;font-weight:bold}
+.headerColumn{background:brown;}
+.headerColumn td{color:white;font-weight:bold;text-align:center;padding:5px}
+.contentColumn td{padding:5px;text-align:center}
+.contentColumn:hover{background:#aeaeae}
+.contentColumn a{text-decoration:none;color:brown;cursor:pointer}
+.contentColumn a:hover{color:red}
+#adminTable{color:white;font-size:13px;font-weight:bold}
+#adminTable tr td b{font-style:italic;color:red}
+#adminTable tr td a{color:#FF5400;text-decoration:none;font-weight:normal;font-style:italic}
+#adminTable tr td a:hover{font-weight:bold}
+
+.pagerClass{list-style:none;}
+.pagerClass li{float:left;padding-right:5px}
+.pagerClass li a{border:1px solid #666;padding:2px 5px 2px 5px;border-radius:5px;color:white;background:#aeaeae;text-decoration:none}
+.pagerClass li a.onPage{color:red;}
+
+#pager a{padding:5px;border:1px solid grey;margin-right:5px;text-decoration:none;font-weight:bold;color:brown;}
+#pager a:hover{background:#aeaeae}
+#pager a.onPage{background:white;color:blue}
+
+.productClass{border-collapse:collapse}
+.productClass td{border:1px solid grey;padding:5px}

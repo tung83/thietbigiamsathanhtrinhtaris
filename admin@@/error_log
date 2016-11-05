@@ -1,0 +1,96 @@
+[30-Aug-2016 08:38:27 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'psmedia_ototuan.ad_user' doesn't exist' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/psmedia/public_html/otobinhlam/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 1300
+[30-Aug-2016 08:38:38 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'psmedia_ototuan.ad_user' doesn't exist' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/psmedia/public_html/otobinhlam/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 1300
+[30-Aug-2016 08:40:23 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'psmedia_ototuan.ad_user' doesn't exist' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/psmedia/public_html/otobinhlam/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 1300
+[30-Aug-2016 08:41:02 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'psmedia_ototuan.ad_user' doesn't exist' in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/psmedia/public_html/otobinhlam/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/psmedia/public_html/otobinhlam/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/psmedia/public_html/otobinhlam/object/MysqliDb.php on line 1300
+[07-Sep-2016 16:30:21 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[07-Sep-2016 16:30:26 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[08-Oct-2016 15:22:45 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[08-Oct-2016 15:22:55 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[15-Oct-2016 08:24:27 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[15-Oct-2016 08:24:32 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[15-Oct-2016 08:24:47 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[15-Oct-2016 08:24:53 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[18-Oct-2016 17:40:49 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[01-Nov-2016 13:46:19 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[01-Nov-2016 13:46:29 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='nhatsang@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300
+[01-Nov-2016 13:53:46 Asia/Saigon] PHP Fatal error:  Uncaught exception 'Exception' with message 'Problem preparing query (select email,pwd from ad_user where email='czanubis@gmail.com') Table 'binhlam_db.ad_user' doesn't exist' in /home/binhlam/public_html/object/MysqliDb.php:1300
+Stack trace:
+#0 /home/binhlam/public_html/object/MysqliDb.php(333): MysqliDb->_prepareQuery()
+#1 /home/binhlam/public_html/admin@@/index.php(50): MysqliDb->rawQuery('select email,pw...')
+#2 {main}
+  thrown in /home/binhlam/public_html/object/MysqliDb.php on line 1300

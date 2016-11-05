@@ -1,0 +1,7 @@
+Options -Multiviews
+
+RewriteEngine Off
+RewriteBase /
+
+DirectoryIndex index.html index.php index.htm main.php
+
