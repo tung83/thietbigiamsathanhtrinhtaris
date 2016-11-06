@@ -116,7 +116,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4ca3b', end
 	color:#ff7300;
 }
 .header .nav>.container>.row{
-    padding:15px 0px
+    padding:15px 0 5px 0;
 }
 .comp-name{
     font-weight: bold;
@@ -142,7 +142,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4ca3b', end
 .logo img{
     /*max-height:45px*/
     position:absolute;
-    bottom:65px !important
+    bottom:50px !important
 }
 
 .wsmenu{
