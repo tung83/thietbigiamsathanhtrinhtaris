@@ -2,11 +2,15 @@
 @session_start();
 session_cache_expire(0);
 error_reporting(E_ALL ^ E_NOTICE);
-
 define('_hostName'  , 'localhost');	
-define('_userName'  , 'binhlam_db');	
-define('_dbName'    , 'binhlam_db');	
-define('_pass'      , 'Binhlam123@');
+define('_userName'  , 'tung');	
+define('_dbName'    , 'taris_db');	
+define('_pass'      , 'tung');
+
+//define('_hostName'  , 'localhost');	
+//define('_userName'  , 'binhlam_db');	
+//define('_dbName'    , 'binhlam_db');	
+//define('_pass'      , 'Binhlam123@');
 //define('_userName'  , 'root');	
 //define('_dbName'    , 'ototuan');	
 //define('_pass'      , '');

@@ -46,7 +46,7 @@
             <div class="col-md-6">
                 <?=common::qtext($db,3)?>
                 <div class="fb-page" 
-                  data-href="https://www.facebook.com/congtyotobinhlam"
+                  data-href="https://www.facebook.com/C%C3%B4ng-Ty-Tnhh-Taris-Chi-Nh%C3%A1nh-%C4%90%E1%BA%AFk-L%E1%BA%AFk-625759374263155/"
                   data-width="380" 
                   data-hide-cover="false"
                   data-show-facepile="false" 
@@ -99,7 +99,7 @@
 
 
 <script type="text/javascript">
-(function(d,s,id){var z=d.createElement(s);z.type="text/javascript";z.id=id;z.async=true;z.src="//static.zotabox.com/0/1/01b83dab966a3f12ef7260fd46d62e53/widgets.js";var sz=d.getElementsByTagName(s)[0];sz.parentNode.insertBefore(z,sz)}(document,"script","zb-embed-code"));
+(function(d,s,id){var z=d.createElement(s);z.type="text/javascript";z.id=id;z.async=true;z.src="//static.zotabox.com/0/0/00cb10683c46bb3da8a7e85f28fefc7a/widgets.js";var sz=d.getElementsByTagName(s)[0];sz.parentNode.insertBefore(z,sz)}(document,"script","zb-embed-code"));
 </script>
 </body>
 </html>

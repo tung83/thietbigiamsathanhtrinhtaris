@@ -13,21 +13,22 @@ function menu($db,$view){
     <div class="nav hidden-xs">
     	<div class="container">
     		<div class="row">
-                <div class="col-lg-4 comp-name">
-                    <span></span><b>Ô TÔ BÌNH LÂM</b>
+                <div class="col-lg-5 comp-name">
+                    <b>CÔNG TY TNHH TARIS</b>
+                    <p class="comp-brand">Chi Nhánh ĐĂK LẮK</p>
                 </div>
     			<div class="col-lg-5">    				
     				<span class="shop-contact first">
-    					<i class="fa fa-phone"></i>Hotline: 0982 056 888
-    				</span>
+    					<i class="fa fa-phone"></i>Hotline:'.common::qtext($db,5)
+    				.'</span>
     				<span class="shop-contact">
-    					<i class="fa fa-envelope-o"></i>E-mail: info@otobinhlam.com.vn
-    				</span>
+    					<i class="fa fa-envelope-o"></i>E-mail:'. common::qtext($db,6)
+    				.'</span>
     				
     			</div>
-    			<div class="col-lg-3">
+    			<div class="col-lg-2">
     				<div id="social_block">    					
-    					<a class="_blank" href="https://www.facebook.com/congtyotobinhlam" target="_blank">
+    					<a class="_blank" href="https://www.facebook.com/C%C3%B4ng-Ty-Tnhh-Taris-Chi-Nh%C3%A1nh-%C4%90%E1%BA%AFk-L%E1%BA%AFk-625759374263155/" target="_blank">
                             <i class="fa fa-facebook"></i>
                         </a>
     					<a class="_blank" href="#" target="_blank"><i class="fa fa-twitter"></i></a>    										
@@ -38,9 +39,7 @@ function menu($db,$view){
     					<a class="_blank" href="#" target="_blank">
                             <i class="fa fa-google-plus"></i>
                         </a>
-    					<a class="_blank" href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-    					<a class="_blank" href="#" target="_blank"><i class="fa fa-vimeo-square"></i></a>
-    					<a class="_blank" href="#" target="_blank"><i class="fa fa-instagram"></i></a>    								
+    				 								
     				</div>
     			</div>
     		</div>
@@ -49,7 +48,7 @@ function menu($db,$view){
     <div class="menu-ground">
     <div class="container clearfix bigmegamenu">
     <div class="logo clearfix">
-        <a href="'.myWeb.'" title="Responsive Slide Menus"><img src="'.selfPath.'logo.png" alt="" style=""/></a>
+        <a href="'.myWeb.'" ><img src="'.selfPath.'logo.png" alt="" style=""/></a>
     </div>
     
     <!--Main Menu HTML Code-->

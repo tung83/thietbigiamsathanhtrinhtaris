@@ -64,13 +64,13 @@ body{
     border-bottom:1px solid #e9e9e9;
 }
 .header .menu-ground{
-    background: rgba(164,202,59,1);
-background: -moz-linear-gradient(top, rgba(164,202,59,1) 0%, rgba(161,199,56,1) 40%, rgba(149,187,46,1) 63%, rgba(141,178,38,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(164,202,59,1)), color-stop(40%, rgba(161,199,56,1)), color-stop(63%, rgba(149,187,46,1)), color-stop(100%, rgba(141,178,38,1)));
-background: -webkit-linear-gradient(top, rgba(164,202,59,1) 0%, rgba(161,199,56,1) 40%, rgba(149,187,46,1) 63%, rgba(141,178,38,1) 100%);
-background: -o-linear-gradient(top, rgba(164,202,59,1) 0%, rgba(161,199,56,1) 40%, rgba(149,187,46,1) 63%, rgba(141,178,38,1) 100%);
-background: -ms-linear-gradient(top, rgba(164,202,59,1) 0%, rgba(161,199,56,1) 40%, rgba(149,187,46,1) 63%, rgba(141,178,38,1) 100%);
-background: linear-gradient(to bottom, rgba(164,202,59,1) 0%, rgba(161,199,56,1) 40%, rgba(149,187,46,1) 63%, rgba(141,178,38,1) 100%);
+    background: rgba(76,77,255,1);
+background: -moz-linear-gradient(top, rgba(76,77,255,1) 0%, rgba(94,95,253,1) 40%, rgba(50,50,250,1) 63%, rgba(0,1,250,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,77,255,1)), color-stop(40%, rgba(94,95,253,1)), color-stop(63%, rgba(50,50,250,1)), color-stop(100%, rgba(0,1,250,1)));
+background: -webkit-linear-gradient(top, rgba(76,77,255,1) 0%, rgba(94,95,253,1) 40%, rgba(50,50,250,1) 63%, rgba(0,1,250,1) 100%);
+background: -o-linear-gradient(top, rgba(76,77,255,1) 0%, rgba(94,95,253,1) 40%, rgba(50,50,250,1) 63%, rgba(0,1,250,1) 100%);
+background: -ms-linear-gradient(top, rgba(76,77,255,1) 0%, rgba(94,95,253,1) 40%, rgba(50,50,250,1) 63%, rgba(0,1,250,1) 100%);
+background: linear-gradient(to bottom, rgba(76,77,255,1) 0%, rgba(94,95,253,1) 40%, rgba(50,50,250,1) 63%, rgba(0,1,250,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4ca3b', endColorstr='#8db226', GradientType=0 );
 }
 .header .nav {
@@ -116,18 +116,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4ca3b', end
 	color:#ff7300;
 }
 .header .nav>.container>.row{
-    padding:20px 0px
+    padding:15px 0px
 }
 .comp-name{
     font-weight: bold;
-    color:#f00;
+    color: #ff0000;
     padding-top:7px;
     font-size:22px;
-    line-height:22px
+    line-height:22px;
+    padding-left: 180px;
 }
-.comp-name span{
-    display:inline-block;
-    width:150px
+.comp-name .comp-brand{
+    font-weight: bold;
+    color: #1112fa;
+    font-size:20px;
 }
 .logo{
     padding:0px 0px;
@@ -135,13 +137,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4ca3b', end
 	float:left;
 	width:165px;
     position:relative;
-    height:50px !important
+    height:35px !important
 }
 .logo img{
     /*max-height:45px*/
     position:absolute;
-    height:123px;
-    bottom:0px !important
+    bottom:65px !important
 }
 
 .wsmenu{

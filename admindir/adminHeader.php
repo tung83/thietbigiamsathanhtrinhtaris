@@ -110,6 +110,10 @@ $(document).ready(function(){
 
 						array(10,"Giới thiệu","?cnht=aboutus"),
 
+						array(10,"Hotline","?cnht=qtext&id=5"),
+
+						array(10,"Email","?cnht=qtext&id=6"),
+
 						array(10,"Text liên hệ","?cnht=qtext&id=2"),
 
 						array(10,"Text Footer","?cnht=qtext&id=3")					

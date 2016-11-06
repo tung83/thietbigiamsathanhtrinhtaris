@@ -24,9 +24,13 @@ unset($process);
 //define area
 define('_hostName'  , 'localhost');	
 
-define('_userName'  , 'taris_db');	
+define('_userName'  , 'tung');	
 define('_dbName'    , 'taris_db');	
-define('_pass'      , '671977');
+define('_pass'      , 'tung');
+
+//define('_userName'  , 'taris_db');	
+//define('_dbName'    , 'taris_db');	
+//define('_pass'      , '671977');
 
 
 //define('_userName'  , 'root');	
