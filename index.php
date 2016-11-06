@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>.:Ô Tô Bình Lâm:.</title>
+    <title>.:TARIS-Innovate your world:.</title>
 	<link rel="icon" type="image/png" href="<?=selfPath?>logo-small.png"/>  
     <?=common::basic_css()?>      
     <?=common::basic_js()?>
