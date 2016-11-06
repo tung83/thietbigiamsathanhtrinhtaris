@@ -61,7 +61,7 @@
         <div class="row copyright">
             <div class="col-md-6">
                 <span class="copy">
-                    Copyright © 2016 OTO BINH LAM. Designed &amp; developed by <a href="http://www.psmedia.vn">PSMedia.vn</a>
+                    Copyright © 2016 TARIS. Designed &amp; developed by <a href="http://www.psmedia.vn">PSMedia.vn</a>
                 </span>
             </div>
             <div class="col-md-6 text-right">
